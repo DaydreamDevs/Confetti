@@ -1,4 +1,7 @@
 <design:component>
     <design:attribute name="threshold" label="Win Threshold" description="The minimum amount the opportunity needs to be to display the confetti. If you always want to display it leave it at 0."/>
     <design:attribute name="winStage" label="Stage" description="The stage the opportunity should be at to display the confetti"/>
+    <sfdc:objects>
+        <sfdc:object>Opportunity</sfdc:object>
+    </sfdc:objects>
 </design:component>

@@ -1,7 +1,17 @@
-# SFDX  App
-<br/>
-<a href="https://githubsfdeploy.herokuapp.com">
-  <img alt="Deploy to Salesforce"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
-</a>
+# Confetti - Celebrate Wins in Lightning
 
+This component displays a full-screen confetti animation when an Opportunity stage and value combination is met.
+
+## Installation Instructions
+
+1. Clone this repository.
+2. Use Salesforce DX to push the source to a scratch org. 
+3. Add the Conffeti component to the top* of an Opportunity record page and configure the Stage and Amount parameters. 
+
+*Note: The component must be added to the very top of the record page for the confetti to be visible on the whole page. 
+
+## Resources
+
+For details on using Salesforce DX, please review the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev).
+
+To learn how this component was developed, view this [blog post](https://www.daydreamdevs.com/blog/2018/8/14/celebrate-wins-in-lightning?utm_source=GitHub&utm_campaign=repo).
