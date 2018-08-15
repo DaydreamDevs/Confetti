@@ -6,7 +6,9 @@ This component displays a full-screen confetti animation when an Opportunity sta
 
 1. Clone this repository.
 2. Use Salesforce DX to push the source to a scratch org. 
-3. Add the Conffeti component to an Opportunity record page and configure the Stage and Amount parameters. 
+3. Add the Conffeti component to the top* of an Opportunity record page and configure the Stage and Amount parameters. 
+
+*Note: The component must be added to the very top of the record page for the confetti to be visible on the whole page. 
 
 ## Resources
 
